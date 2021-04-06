@@ -1,16 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
-    </div>
-  );
+import './App.css';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className='App'>
+          <Navbar />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/about' component={About} />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
