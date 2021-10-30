@@ -4,15 +4,19 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #0068fa;
-  --dark-color: #00337a;
-  --light-color: #4b94fb;
+  --primary-color: #2a2e34;
+  --dark-color: #1e2328;
+  --light-color: #3b3f46;
   --danger-color: #dc3545;
   --success-color: #28a745;
+  --secondary-color: #fdc93b;
+  --secondary-dark: #e8a41c;
+  --secondary-light: #fed053;
 }
 
 * {
   box-sizing: border-box;
+  background-color: var(--dark-color);
   margin: 0;
   padding: 0;
 }
@@ -22,7 +26,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  color: #333;
+  color: #e2e5de;
+  background-color: var(--dark-color);
 }
 
 a {
@@ -46,6 +51,7 @@ h1 {
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
+  color: var(--secondary-color);
 }
 
 /* Utilities */
@@ -54,7 +60,6 @@ h1 {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  background-color: white;
 }
 
 .intro {
@@ -384,13 +389,13 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: var(--secondary-color);
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: var(--secondary-dark);
 }
 
 .navbar .welcome span {
