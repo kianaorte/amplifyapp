@@ -13,6 +13,11 @@ export class Navbar extends Component {
             <Link to='/projects'> Projects</Link>
           </li>
           <li>
+            <a href='Kiana_CV.pdf' download>
+              CV
+            </a>
+          </li>
+          <li>
             <Link to='/about'>About</Link>
           </li>
         </ul>

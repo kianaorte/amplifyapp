@@ -6,7 +6,7 @@ export class Projects extends Component {
       <div className='container'>
         <h1>Projects</h1>
         <div className='project'>
-          <div>
+          <div class='su-container'>
             <h2>Sisters United</h2>
             <p>Stuff about project</p>
             <button>Find out more</button>
@@ -16,7 +16,7 @@ export class Projects extends Component {
             <p>Stuff about project</p>
             <button>Find out more</button>
           </div>
-          <div>
+          <div class='p3-container'>
             <h2>Prj 3</h2>
             <p>Stuff about project</p>
             <button>Find out more</button>
