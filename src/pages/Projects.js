@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import './Projects.css';
+import SistersUnited from './projects/SistersUnited';
+
 export class Projects extends Component {
   render() {
     return (
@@ -7,9 +10,7 @@ export class Projects extends Component {
         <h1>Projects</h1>
         <div className='project'>
           <div class='su-container'>
-            <h2>Sisters United</h2>
-            <p>Stuff about project</p>
-            <button>Find out more</button>
+            <SistersUnited />
           </div>
           <div>
             <h2>Github Finder</h2>

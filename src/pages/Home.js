@@ -8,7 +8,7 @@ export class Home extends Component {
         <p className='intro'>
           I'm an aspiring Full Stack Developer based in Auckland, New Zealand. I
           have a passion for creating aesthetic user friendly programs using
-          JavaScript, React and Adobe Creative Cloud Suite.
+          JavaScript, React, Vue and Adobe Creative Cloud Suite.
         </p>
       </div>
     );
